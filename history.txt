@@ -1,0 +1,332 @@
+    1  cd
+    2  ssh-keygen
+    3  cat .ssh/id_rsa
+    4  cat .ssh/id_rsa.pub
+    5  nano .ssh/authorized_keys
+    6  ssh ec2-user@linux.itcareerhub.de
+    7  ssh ec2-user@linux.itcareerhub.de
+    8  scp  ec2-user@linux.itcareerhub.de:/opt/250425-wdm/Hrytsenko/test/output.txt .
+    9  ls -la
+   10  cat output.txt
+   11  scp  ec2-user@linux.itcareerhub.de:/opt/250425-wdm/Hrytsenko/test/ .
+   12  scp -r ec2-user@linux.itcareerhub.de:/opt/250425-wdm/Hrytsenko/test/ .
+   13  scp ec2-user@linux.itcareerhub.de:/opt/250425-wdm/Hrytsenko/test1.txt dirforfile/newtest1.txt
+   14  scp ec2-user@linux.itcareerhub.de:/opt/250425-wdm/Hrytsenko/test1.txt ./newtest1.txt
+   15  touch 123.sh
+   16  ls -la
+   17  scp 123.sh ec2-user@linux.itcareerhub.de:/opt/250425-wdm/Hrytsenko/
+   18  cat .ssh/id_rsa.pub
+   19  cd
+   20  cd .ssh
+   21  .ssh % ls -ls
+   22  ls -la
+   23  ssh ec2-user@linux.itcareerhub.de
+   24  ssh ec2-user@linux.itcareerhub.de
+   25  ssh ec2-user@linux.itcareerhub.de
+   26  ssh ec2-user@linux.itcareerhub.de
+   27  ssh ec2-user@linux.itcareerhub.de
+   28  cd
+   29  mkdir 1706
+   30  cd 1706
+   31  git init
+   32  git config --global user.name "AlonaHrytsenko"
+   33  git config --global user.email "alenagrytsenko111@gmail.com"
+   34  echo "# 1706" >> README.md
+   35  ls -la
+   36  git add README.md
+   37  git status
+   38  git commit -m "added file README.md"
+   39  git branch
+   40  git branch -M main
+   41  git remote add origin git@github.com:AlonaHrytsenko/1706.git
+   42  git remote -v
+   43  git push -u origin main
+   44  echo "some text" >> README.md
+   45  touch file.txt
+   46  mkdir test
+   47  ls -l
+   48  git status
+   49  git add .
+   50  git status
+   51  git commit -m "modified README.md+addet data some text, created file.txt"
+   52  git push
+   53  git log
+   54  git log --oneline
+   55  cd ..
+   56  rm -rf 1706
+   57  ls -la
+   58  cd
+   59  mkdir testing
+   60  cd testing
+   61  git init
+   62  ls -la
+   63  echo "# testing" >> README.md
+   64  git status
+   65  git add .
+   66  git commit -m "added README"
+   67  git branch -M main
+   68  git remote add origin git@github.com:AlonaHrytsenko/testing.git
+   69  git push -u origin main
+   70  cd ..
+   71  rm -rf testing
+   72  cd
+   73  mkdir git_intro
+   74  git init
+   75  git branch -M main
+   76  cp /Users/ICH/Downloads/Digital-Experiences.png /git_intro/picture.png
+   77  cp Users/ICH/Downloads/Digital-Experiences.png /git_intro/picture.png
+   78  pwd
+   79  cp c/Users/ICH/Downloads/Digital-Experiences.png /git_intro/picture.png
+   80  cp /c/Users/ICH/Downloads/Digital-Experiences.png /git_intro/picture.png
+   81  cp /c/Users/ICH/Downloads/Digital-Experiences.png /cUsers/ICH/git_intro/picture.png
+   82  cp /c/Users/ICH/Downloads/Digital-Experiences.png /c/Users/ICH/git_intro/picture.png
+   83  ls -la
+   84  cd git_intro/
+   85  ls -la
+   86  git init
+   87  ls-la
+   88  ls -la
+   89  git status
+   90  git add .
+   91  git status
+   92  git commit -m "Added foto"
+   93  git branch -M main
+   94  git remote add origin git@github.com:AlonaHrytsenko/git_intro.git
+   95  git push -u origin main
+   96  cd
+   97  touch example.txt
+   98  chmod u+rwx example.txt
+   99  ls -l
+  100  chmod u+x example.txt
+  101  ls -l
+  102  chmod g+rx example.txt
+  103  ls -l
+  104  ls -l example.txt
+  105  chmod g-r example.txt
+  106  ls -l example.txt
+  107  cd
+  108  ls -l example.txt
+  109  chmod g+rx example.txt
+  110  ls -l example.txt
+  111  chmod 0 example.txt
+  112  ls -l example.txt
+  113  cd /git_init
+  114  cd /git_intro
+  115  pwd
+  116  ls la
+  117  ls -la
+  118  cd git_intro
+  119  cp c/[200~
+  120  cp c/Users/ICH/Downloads/poster.png poster.png
+  121  cp /c/Users/ICH/Downloads/poster.png poster.png
+  122  git add .
+  123  git status
+  124  git commit -m "added new file poster.png"
+  125  git push
+  126  ls -la 
+  127  git status
+  128  ls -la
+  129  ls -la .git
+  130  rm -rf .git
+  131  clean
+  132  clear
+  133  cd
+  134  git branch
+  135  git rev-parse --show-toplevel
+  136  ls -la last
+  137  mkdir -p last
+  138  cd last
+  139  git init
+  140  git branch -M main
+  141  ls -la
+  142  git branch
+  143  git status
+  144  git add .
+  145  git status
+  146  git status
+  147  git add .
+  148  git add .
+  149  git status
+  150  git  rm --cached new.txt
+  151  git status
+  152  git commut -m "added file HW5.jpg, file.txt"
+  153  git commit -m "added file HW5.jpg, file.txt"
+  154  git remote add origin git@github.com:AlonaHrytsenko/last.git
+  155  git remote -v
+  156  git push
+  157  git push -u -origin main
+  158  git pull origin main --rebase
+  159  git status
+  160  ls -la
+  161  git log
+  162  git push -u origin main
+  163  git branch
+  164  git checkout -b test
+  165  git branch
+  166  git log
+  167  touch test.doc
+  168  git status
+  169  git add test.doc
+  170  git commit -m "added test.doc"
+  171  git push origin test
+  172  ls -la
+  173  git checkout main 
+  174  ls -la
+  175  git merge test
+  176  ls -la
+  177  git log
+  178  git branch
+  179  git branch -d test
+  180  git branch
+  181  git log --graph
+  182  git log
+  183  git checkout ab743d5d5acca
+  184  ls -la
+  185  git checkout -b new
+  186  ls -la
+  187  git branch -d new
+  188  git checkout main
+  189  git branch -d new
+  190  git checkout -b gitignore
+  191  nano .gitignore
+  192  ls -la
+  193  git status
+  194  git add .
+  195  git checkout main
+  196  git checkout gitignore 
+  197  git status
+  198  git commit -m "added .gitignore"
+  199  git checkout main
+  200  git merge gitignore
+  201  ls -la
+  202  touch 1.jpg
+  203  git status
+  204  git branch -d gitignore
+  205  git push
+  206  ls -la
+  207  git fetch origin
+  208  git merge origin/main
+  209  ls -la
+  210  git push
+  211  git log --graph
+  212  git log --graph --oneline
+  213  cd
+  214  git clone git@github.com:AlonaHrytsenko/bashscripts.git
+  215  cd bashscripts
+  216  ls -la
+  217  git remote -v
+  218  git remote add upstream https://github.com/aliaskov/bashscripts.git
+  219  git remote -v
+  220  git log
+  221  git log --oneline --graph
+  222  git checkout -b test
+  223  touch alona
+  224  git checkout main
+  225  git checkout master
+  226  git checkout test
+  227  git add .
+  228  dit status
+  229  git status
+  230  git commit -m "added file alona"
+  231  git checkout master
+  232  git merge test
+  233  ls -la alona
+  234  git push origin main
+  235  git push origin master
+  236  git fetch all
+  237  git fetch -all
+  238  git fetch --all
+  239  git merge upstream/master
+  240  cd
+  241  git clone git@github.com:AlonaHrytsenko/bash-tetris.git
+  242  cd bash-tetris
+  243  ls -la
+  244  ./tetris.sh
+  245  ls -la
+  246  git checkout -b test
+  247  rm -rf test 20/
+  248  ls -l
+  249  git add .
+  250  git commit -m "delete files" 
+  251  git checkout master
+  252  git merge test
+  253  git push -u origin master
+  254  git remote -v
+  255  git remote add upstream https://github.com/iohichu/bash-tetris.git
+  256  git remote -v
+  257  git fetch --all
+  258  git merge upstream/master
+  259  ls -la
+  260  git log
+  261  git checkout -b 111
+  262  touch file.txt
+  263  git status
+  264  git stash push -m "pravki"
+  265  git stash list
+  266  git checkout master
+  267  git checkout 111
+  268  git add .
+  269  git status
+  270  git stash push -m "pravki"
+  271  git stash list
+  272  git stash clear
+  273  git stash list
+  274  cd .git
+  275  cd objects
+  276  ls -la
+  277  tree
+  278  ls -lR
+  279  ssh ec2-user@linux.itcareerhub.de
+  280  cd
+  281  mkdir -p git-branch
+  282  cd git-branch
+  283  git init
+  284  git checkout -b gitignore
+  285  nano .gitignore
+  286  git add .
+  287  git status
+  288  git commit -m "added file .gitignore"
+  289  git push 
+  290  git push -u origin master
+  291  git checkout master
+  292  git checkout main
+  293  git remote add origin git@github.com:AlonaHrytsenko/git-branch.git
+  294  git push -u origin gitignore
+  295  git checkout main
+  296  git checkout master
+  297  ssh ec2-user@linux.itcareerhub.de
+  298  ssh ec2-user@linux.itcareerhub.de
+  299  scp ec2-user@linux.itcareerhub.de:/opt/250425-wdm/Hrytsenko/permission_checker.sh /home/ICH/Desktop/домашки/Linux/HW11/permission_checker.sh
+  300  pwd
+  301  scp ec2-user@linux.itcareerhub.de:/opt/250425-wdm/Hrytsenko/permission_checker.sh ./permission_checker.sh
+  302  ssh ec2-user@linux.itcareerhub.de
+  303  git clone git@github.com:AlonaHrytsenko/HW12.git
+  304  cd HW12
+  305  git checkout -b feature
+  306  nano README.md
+  307  nano .gitignore
+  308  git add .
+  309  git commit -m "Initial commit on feature branch"
+  310  git push origin feature
+  311  git commit --amend -m "Initial commit on feature branch (amend)"
+  312  git push origin feature --force
+  313  git checkout main
+  314  cd
+  315  rm -rf HW12
+  316  ls -la
+  317  git clone git@github.com:AlonaHrytsenko/HW12.git
+  318  cd HW12
+  319  git checkout -b feature
+  320  nano README.md 
+  321  nano .gitignore 
+  322  git status
+  323  git add .
+  324  git commit "Initial commit on feature branch"
+  325  git commit -m "Initial commit on feature branch"
+  326  git push origin feature 
+  327  git commit --amend -m "Initial commit on feature branch (amend)"
+  328  git push origin feature --force
+  329  git checkout main
+  330  git merge feature
+  331  git push origin main
+  332  history > history.txt
